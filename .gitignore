@@ -1,0 +1,52 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+/.idea/copilotDiffState.xml
+/.idea/inspectionProfiles/
+/.idea/deviceManager.xml
+
+# Release keystore (NON committare)
+myvoice-release.jks
+local.properties
+
+# OS/system files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+
+# Editor/temp files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Local UI test/report artifacts (root)
+/launcher_*.png
+/va_layout_*.png
+/va_*_*.xml
+/layout_matrix_report.csv
+/test-run.log
+
+# Secrets/keys
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+

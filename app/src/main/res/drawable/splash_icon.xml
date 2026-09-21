@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!--
+        Icona microfono centrata nell'area sicura 18–90 (safe zone 72×72dp).
+        Tutti i path sono bianchi su sfondo trasparente.
+        Il group 'mic_group' è il target dell'animazione AnimatedVectorDrawable.
+    -->
+    <group
+        android:name="mic_group"
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:alpha="1">
+
+        <!-- Corpo del microfono (rettangolo arrotondato) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M47,24
+                C47,17.4 61,17.4 61,24
+                L61,52
+                C61,58.6 47,58.6 47,52
+                Z" />
+
+        <!-- Arco / supporto del microfono -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M37,48
+                C37,65 71,65 71,48
+                L67,48
+                C67,61 41,61 41,48
+                Z" />
+
+        <!-- Asta verticale -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M52,65 L52,76 L56,76 L56,65 Z" />
+
+        <!-- Base orizzontale -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M44,76 L64,76 L64,80 L44,80 Z" />
+
+        <!-- Punto luminoso sinistro (dettaglio decorativo) -->
+        <path
+            android:fillColor="#AAFFFFFF"
+            android:pathData="M50,34 A2,2 0 0 1 54,34 A2,2 0 0 1 50,34 Z" />
+
+    </group>
+</vector>
+

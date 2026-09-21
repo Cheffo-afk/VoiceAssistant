@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tema base dell'app -->
+    <style name="Theme.VoiceAssistant" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!--
+        Tema Splash Screen (libreria androidx.core:core-splashscreen).
+        postSplashScreenTheme → ripristina il tema normale dell'app
+        windowSplashScreenBackground → sfondo blu durante il caricamento
+        windowSplashScreenAnimatedIcon → icona microfono animata (scala in + fade)
+        windowSplashScreenAnimationDuration → durata dell'icona animated (ms)
+        windowSplashScreenBrandingImage → non usato (mantenuto semplice)
+    -->
+    <style name="Theme.VoiceAssistant.Splash" parent="Theme.SplashScreen">
+        <item name="postSplashScreenTheme">@style/Theme.VoiceAssistant</item>
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_icon_animated</item>
+        <item name="windowSplashScreenAnimationDuration">600</item>
+    </style>
+
+</resources>
+

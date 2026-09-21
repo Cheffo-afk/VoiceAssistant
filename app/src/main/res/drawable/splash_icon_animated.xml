@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    AnimatedVectorDrawable per la splash screen.
+    Referenzia splash_icon.xml come drawable base e
+    mic_scale_in.xml come animazione sul gruppo 'mic_group'.
+-->
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/splash_icon">
+
+    <target
+        android:name="mic_group"
+        android:animation="@animator/mic_scale_in" />
+
+</animated-vector>
+

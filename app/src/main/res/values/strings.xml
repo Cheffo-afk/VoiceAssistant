@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VoiceAssistant</string>
+    <!-- Widget -->
+    <string name="widget_launcher_label">Apri VoiceAssistant</string>
+    <string name="widget_launcher_subtitle">Tocca per aprire</string>
+    <string name="widget_aiuto_label">AIUTO</string>
+    <string name="widget_aiuto_subtitle">Tocca per chiamare aiuto</string>
+</resources>
